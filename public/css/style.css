@@ -1,0 +1,462 @@
+nav{
+    background: linear-gradient(to right, #74838b, #8ebcd1, #303e4b);
+    padding: 20px;
+    box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.267); 
+       
+}
+navbar-nav.ml-auto {
+    margin-left: 0;
+    
+  }
+
+ 
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .image-button {
+    width: 100px;
+    height: 40px;
+    background-image: url("/img/tentang.jpg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-1 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/pramuka.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-2 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/paskibra.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-3 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/pakubara.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-4 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/pmr.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-5 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/lisska.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-6 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/IPMI.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-7 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/PERISAI.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-8 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/ENGLISH.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-9 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/JAPANESSE.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-10 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/pmr.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  .image-button-11 {
+    width: 500px;
+    height: 300px;
+    background-image: url("/img/pmr.jpeg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .left-container {
+   
+    padding: 20px;
+  }
+
+  .right-container {
+    
+    padding: 20px;
+  }
+  navbar-nav {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+  }
+  
+  li {
+    margin: 0 10px;
+    
+  }
+  nav ul li {
+    float: left;
+}
+
+  .navbar-nav li a {
+    color: #fff;
+    font-size: 12px;
+    float: left;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+img {
+    border-radius: 3%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, #87a7b9,);
+    border-radius: 8PX;
+    min-width: 20px;
+    
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to right, #87a7b9, #8ebcd1, #8bb0d1);
+    min-width: 20px;
+    box-shadow: 0px 6px 12px 0px rgba(255, 255, 255, 0.2);
+  }
+  
+  .dropdown-menu a {
+    color: rgb(255, 255, 255);
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  h1 {
+    color: #000000;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+  }
+  h5 {
+    color: #335f85;
+  }
+  h2 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h3{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #666;
+    font-size: .9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: .25em;
+  }
+  
+  
+  
+  p {
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: justify;
+    max-width: 600px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+  }
+  
+  input[type="checkbox"] {
+    display: block;
+    
+  }
+  
+  
+ h6 {
+  font-family:'Times New Roman', Times, serif;
+ }
+ 
+ button {
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 185px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+ 
+.button-1 {
+  /* Style untuk button dengan ID button-1 */
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 185px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.button-2 {
+  /* Style untuk button dengan ID button-2 */
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 212px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.button-3 {
+  /* Style untuk button dengan ID button-2 */
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 9px 145px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.button-4 {
+  /* Style untuk button dengan ID button-2 */
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 9px 180px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.button-5 {
+  /* Style untuk button dengan ID button-2 */
+  background-color: #74838b;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 9px 178px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+
+button:hover {
+  background-color: #74838b;
+}
+label {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  overflow: auto;
+}
+
+.modal-content {
+  display: block;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-height: 70%;
+  max-width: 650PX;
+  overflow: auto;
+}
+.modal-content-3 {
+  display: block;
+  position: relative;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  max-height: 300%;
+  max-width: 850PX;
+  overflow: auto;
+}
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.journal-page {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.journal-page h2 {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.journal-page p {
+  color: #666;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+.journal-page a{
+  color: #666;
+  font-size: 14px;
+}
+.left-container img {
+  border-radius: 10px;
+}
+
+   
+.table >tbody> tr> * {
+  vertical-align: middle;
+}
+thead {
+  background-color: #89a1b8; /* Ganti dengan warna latar belakang yang diinginkan */
+  color: #ffffff; /* Ganti dengan warna teks yang diinginkan */
+}
+footer {
+  background: linear-gradient(to right, #74838b, #8ebcd1, #303e4b);
+  padding: 20px;
+  box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.267);
+  position: relative;
+
+
+}
